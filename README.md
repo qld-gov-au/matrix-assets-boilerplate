@@ -78,6 +78,7 @@ You could fork this repository to contain franchise specific assets.
 13. Create a new binary repository in https://github.com/organizations/qld-gov-au/repositories/new
 14. Use the binary repo name you've defined previously, eg. `matrix-assets-housing-release`, and check `Add a READMEfile`. Then submit.
 15. Now you've setup both franchise repository and binary repository, every push in the source repository will automatically build and publish to the binary repository. You could synchronise the binary repository inn Squiz Matrix Gitbridge now.
+16. Checkout the new source repository, try to replace any occurrence of `matrix-assets-boilerplate` to the new repo name you have defined. If you commit and push then you should see the Github action is running and deploys to the binary repository.
 
 
 
